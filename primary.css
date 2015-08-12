@@ -1,0 +1,58 @@
+body {
+    background-color: green;
+}
+
+header{
+    font-size: 30px;
+    font-weight: bold;
+    padding: 10px 0 10px 0;
+    margin-left: 130px;
+    margin-right: 75px;
+    font-style: italic;
+    text-align: center;
+}
+
+.candy {
+    background-color: lightblue;
+    margin-left: 400px;
+    margin-right: 550px;
+    padding-left: 10px;
+    padding-right: 10;
+}
+
+h1{
+    margin-left: 150px;
+    margin-right: 75px;
+    text-align: center;
+}
+
+.nuts {
+    margin-left: 700px;
+    margin-right: 300px;
+    background-color: lightblue;
+    padding-left: 10px;
+}
+
+.fruit {
+    background-color: lightblue;
+    margin-left: 400px;
+    margin-right: 550px;
+    padding-left: 10px;
+}
+
+.seeds {
+    margin-left: 700px;
+    margin-right: 300px;
+    background-color: lightblue;
+    padding-left: 10px;
+}
+
+h2 {
+    margin-left: 200px;
+    text-align: center;
+    margin-right: 75px;
+}
+
+footer{
+    text-align: center;
+}
