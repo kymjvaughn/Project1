@@ -1,20 +1,105 @@
-body {
-    background-color: green;
-    
+/**********************
+about page
+***********************/
+.about {
+    background-image: url("img/leaves.jpg");
 }
-
-header{
-    font-size: 30px;
+.headerabout{
+    background-color: crimson;
+    font-size: 100px;
     font-weight: bold;
-    padding: 10px 0 10px 0;
-    margin-left: 130px;
-    margin-right: 75px;
+    padding: 7px 0 7px 0;
+    margin-left: 0px;
+    margin-right: 0px;
     font-style: italic;
     text-align: center;
 }
+.navabout {
+    background-color: lightpink;
+    text-align: center;
+    font-size: 25px;
+}
+.navabout a:hover {
+    background: white;
+}    
+.parabout {
+    color: white;
+    font-size: 30px;
+    text-shadow: 2px 2px 8px crimson;
+}
+.h3about {
+    color: white;
+    font-size: 40px;
+    text-shadow: 2px 2px 8px crimson;
+    font-weight:bold;
+}
+.par2about {
+    color: white;
+    font-size: 30px;
+    text-shadow: 2px 2px 8px crimson;    
+}
+.footerabout {
+    text-align: center;
+    font-size: 40px;
+    padding-top: 20px;
+    padding-bottom: 0px;
+    color: white;
+    text-shadow: 2px 2px 8px crimson;
+    margin-bottom: 100px    
+}
+
+/****************************
+home page
+*****************************/
+ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 10px;
+    display: block;
+}
+li{
+    display: inline;
+    padding: 10px;
+}
+nav {
+    text-align: center;
+    background-color: lightgreen;
+    font-size: 25px;
+}
+nav a:hover {
+    background-color: yellowgreen;
+}
+
+
+img {
+    max-width: 100%;
+}
+#pictures li {
+    float: left;
+    background-color: white;
+    width:20%;
+    margin:1.25%;
+}
+
+
+body {
+    background-color: green;
+    color: black;
+}
+
+
+.headerindex{
+    font-size: 150px;
+    font-weight: bold;
+    padding: 10px 0 10px 0;
+    margin-left: 0px;
+    margin-right: 0px;
+    font-style: italic;
+    text-align: center;
+    background-image: url("img/christmas_tree.jpg");
+}
 
 .candy {
-    background-color: lightblue;
     margin-left: 400px;
     margin-right: 550px;
     padding-left: 10px;
@@ -30,12 +115,10 @@ h1{
 .nuts {
     margin-left: 700px;
     margin-right: 300px;
-    background-color: lightblue;
     padding-left: 10px;
 }
 
 .fruit {
-    background-color: lightblue;
     margin-left: 400px;
     margin-right: 550px;
     padding-left: 10px;
@@ -44,7 +127,6 @@ h1{
 .seeds {
     margin-left: 700px;
     margin-right: 300px;
-    background-color: lightblue;
     padding-left: 10px;
 }
 
@@ -54,6 +136,52 @@ h2 {
     margin-right: 75px;
 }
 
-footer{
+.footerhome {
+    text-align: center;
+    font-size: 40px;
+    padding-top: 20px;
+    padding-bottom: 0px;
+    color: white;
+    text-shadow: 2px 2px 8px lightgreen;
+    margin-top: 500px;
+    margin-bottom: 0px    
+}
+
+/***************************
+order form
+****************************/
+.navform {
+    background-color: khaki;
+    text-align: center;
+    font-size: 25px;
+}
+.navform a:hover {
+    background: white;
+}
+.footerform {
+    text-align: center;
+    font-size: 40px;
+    padding-top: 225px;
+    padding-bottom: 0px;
+    color: black;
+    text-shadow: 2px 2px 8px yellow;
+    margin-bottom: 100px;
+}
+.p3order {
+    font-size: 80px;
+    color: black;
+    text-shadow: 2px 2px 8px yellow;
+}
+.orderform {
+    background-image: url("img/wheat-field-640960_1280.jpg");
+}
+.headerform{
+    background-color: gold;
+    font-size: 125px;
+    font-weight: bold;
+    padding: 10px 0 10px 0;
+    margin-left: 0px;
+    margin-right: 0px;
+    font-style: italic;
     text-align: center;
 }

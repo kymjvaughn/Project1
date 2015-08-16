@@ -1,0 +1,61 @@
+
+.headercustom {
+    background-color: orchid;
+    font-size: 100px;
+    font-weight: bold;
+    padding: 7px 0 7px 0;
+    margin-left: 0px;
+    margin-right: 0px;
+    font-style: italic;
+    text-align: center;    
+}
+.bodycustom {
+    background-image: url("img/purple-69366_1280.jpg");
+    
+}
+.navcustom {
+    background-color: plum;
+    text-align: center;
+    font-size: 25px;
+}
+.navcustom a:hover {
+    background: white;
+} 
+ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 10px;
+    display: block;
+}
+li {
+    display:inline;
+    padding: 10px;
+}
+.htop {
+    color: black;
+    font-size: 50px;
+    text-shadow: 2px 2px 8px lightpink;    
+}
+.hselect {
+    color: white;
+    font-size: 30px;
+    text-shadow: 2px 2px 8px lightpink;
+}
+#choices {
+    float: left;
+    width: 40%;
+    margin: 1.25%;
+    background-color: lightcyan;
+    color: black;
+    text-shadow: 1px 1px 4px lightpink;
+}
+.footercustom {
+    text-align: center;
+    font-size: 40px;
+    padding-top: 20px;
+    padding-bottom: 0px;
+    color: white;
+    text-shadow: 2px 2px 8px lightpink;
+    margin-top: 500px;
+    margin-bottom: 0px    
+}
